@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trilha 4: Laboratorios | VisionPro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FACC15',
+            dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .topic-explanation { display: none; }
+    .topic-explanation.active { display: block; }
+  </style>
+</head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen">
+
+  <!-- Navigation Global -->
+  <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center space-x-4">
+          <a href="../../index.html" class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300 transition-colors">
+            <span class="text-3xl">🎬</span>
+            <span class="font-bold text-xl hidden sm:inline">VisionPro</span>
+          </a>
+          <span class="text-neutral-600">|</span>
+          <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">INEMA.CLUB</a>
+        </div>
+        <div class="flex flex-col items-end space-y-1">
+          <div class="flex items-center space-x-1 sm:space-x-2">
+            <a href="../trilha1/index.html" class="px-2 sm:px-3 py-1 rounded-lg text-xs sm:text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-all">
+              <span class="sm:hidden">T1</span>
+              <span class="hidden sm:inline">Fundamentos</span>
+            </a>
+            <a href="../trilha2/index.html" class="px-2 sm:px-3 py-1 rounded-lg text-xs sm:text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-all">
+              <span class="sm:hidden">T2</span>
+              <span class="hidden sm:inline">Metodo</span>
+            </a>
+            <a href="../trilha3/index.html" class="px-2 sm:px-3 py-1 rounded-lg text-xs sm:text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-all">
+              <span class="sm:hidden">T3</span>
+              <span class="hidden sm:inline">Avancado</span>
+            </a>
+          </div>
+          <div class="flex items-center space-x-1 sm:space-x-2">
+            <a href="index.html" class="px-2 sm:px-3 py-1 rounded-lg text-xs sm:text-sm font-semibold bg-amber-500/10 text-amber-400">
+              <span class="sm:hidden">T4</span>
+              <span class="hidden sm:inline">Labs</span>
+            </a>
+            <a href="../trilha5/index.html" class="px-2 sm:px-3 py-1 rounded-lg text-xs sm:text-sm font-semibold text-neutral-400 hover:text-rose-400 hover:bg-rose-500/10 transition-all">
+              <span class="sm:hidden">T5</span>
+              <span class="hidden sm:inline">Marketing</span>
+            </a>
+            <a href="../trilha6/index.html" class="px-2 sm:px-3 py-1 rounded-lg text-xs sm:text-sm font-semibold text-neutral-400 hover:text-cyan-400 hover:bg-cyan-500/10 transition-all">
+              <span class="sm:hidden">T6</span>
+              <span class="hidden sm:inline">Animacao</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header da Trilha -->
+  <header class="relative bg-gradient-to-b from-amber-900/20 to-dark-900 border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <div class="flex items-center space-x-3 mb-4">
+        <span class="px-3 py-1 bg-amber-500/20 text-amber-400 text-xs font-bold rounded-full">TRILHA 4</span>
+        <span class="text-neutral-500 text-sm">5 laboratorios</span>
+      </div>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+        <span class="text-amber-400">Laboratorios</span>
+      </h1>
+      <p class="text-neutral-400 text-lg max-w-2xl">
+        Dispositivos praticos e diferenciais de elite que aceleram seu aprendizado. Aprenda fazendo, errando e iterando.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <span class="px-3 py-1.5 bg-dark-700 text-neutral-300 text-sm rounded-lg">Falhas Guiadas</span>
+        <span class="px-3 py-1.5 bg-dark-700 text-neutral-300 text-sm rounded-lg">Leitura Reversa</span>
+        <span class="px-3 py-1.5 bg-dark-700 text-neutral-300 text-sm rounded-lg">Modo Estudio</span>
+        <span class="px-3 py-1.5 bg-dark-700 text-neutral-300 text-sm rounded-lg">Portfolio IA</span>
+        <span class="px-3 py-1.5 bg-dark-700 text-neutral-300 text-sm rounded-lg">Projeto Final</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Lista de Modulos -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="space-y-6">
+
+      <!-- Lab 4.1 -->
+      <div class="bg-dark-800 rounded-2xl border border-dark-600 overflow-hidden hover:border-amber-500/30 transition-all">
+        <a href="lab-4-1.html" class="block p-6 sm:p-8">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <div class="flex items-center space-x-3 mb-3">
+                <span class="w-10 h-10 bg-amber-500/20 text-amber-400 rounded-xl flex items-center justify-center font-bold">4.1</span>
+                <span class="text-neutral-500 text-sm">90 min</span>
+              </div>
+              <h2 class="text-xl sm:text-2xl font-bold mb-2 group-hover:text-amber-400 transition-colors">
+                Falhas Guiadas
+              </h2>
+              <p class="text-neutral-400">
+                Erre de proposito para aprender mais rapido. Laboratorio de experimentacao controlada onde falhar e o objetivo.
+              </p>
+            </div>
+            <span class="text-amber-400 text-2xl ml-4">→</span>
+          </div>
+        </a>
+
+        <!-- Topicos Expansiveis -->
+        <div class="border-t border-dark-600 divide-y divide-dark-700">
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">1</span>
+            <span class="text-lg mr-2">🧠</span><span class="flex-1 text-sm font-medium">A Ciencia do Erro Produtivo</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">A neurociencia por tras do aprendizado por tentativa e erro. Estudos mostram que erros deliberados criam conexoes neurais mais fortes que acertos faceis.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Transforma frustracoes em insights poderosos. Voce aprende a ver o erro como ferramenta, nao como falha, acelerando drasticamente sua curva de aprendizado.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Erro produtivo, neuroplasticidade, recompensa de insight, ciclo de aprendizado acelerado, documentacao de falhas.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">2</span>
+            <span class="text-lg mr-2">📝</span><span class="flex-1 text-sm font-medium">Exercicio: O Roteiro Quebrado</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Exercicio pratico onde voce escreve roteiros propositalmente ruins - sem gancho, sem conflito, sem arco - para entender estrutura narrativa pelo negativo.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Quando voce quebra cada regra deliberadamente e analisa o resultado, internaliza permanentemente o motivo pelo qual a estrutura existe.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Gancho narrativo, conflito, arco de transformacao, estrutura em 3 atos, analise de erros estruturais.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">3</span>
+            <span class="text-lg mr-2">✂️</span><span class="flex-1 text-sm font-medium">Exercicio: Edicao de Desastre</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Crie propositalmente a pior edicao possivel: cortes no meio de palavras, jump cuts sem proposito, ritmo robotico, ignorando musica e respiracoes.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Ao vivenciar o desconforto de uma edicao mal feita, seu olho se calibra permanentemente para qualidade. Voce desenvolve uma reacao fisica ao corte ruim.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Regra dos 180 graus, ritmo de edicao, pontos de corte, sincronizacao com audio, jump cuts intencionais vs acidentais.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">4</span>
+            <span class="text-lg mr-2">🖼️</span><span class="flex-1 text-sm font-medium">Exercicio: Thumbnail Anticlick</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Crie thumbnails deliberadamente ruins: texto ilegivel, imagens genericas, sem emocao humana, cores mortas, poluicao visual. Analise cada falha.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">A melhor forma de entender o que faz uma thumbnail funcionar e criar deliberadamente thumbnails que ninguem clicaria e entender cada erro.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">CTR, hierarquia visual, contraste, emocao facial, promessa clara, legibilidade em tamanho pequeno.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">5</span>
+            <span class="text-lg mr-2">🤖</span><span class="flex-1 text-sm font-medium">Exercicio: IA Mal Promtada</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Exercicio de criar os piores prompts possiveis: vagos, contraditorios, sem contexto, sem formato. Compare com versoes corrigidas.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Errar deliberadamente com prompts ensina cada principio de forma visceral. Voce entende a anatomia de um bom prompt pela ausencia de seus elementos.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Especificidade, contexto, formato de output, constraints criativos, iteracao de prompts.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">6</span>
+            <span class="text-lg mr-2">📓</span><span class="flex-1 text-sm font-medium">Diario de Erros e Insights</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Sistema estruturado para documentar cada erro com contexto, causa, insight e acao corretiva. Transforme erros isolados em acervo de aprendizado.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">O valor da falha guiada so se realiza quando documentada. A escrita fixa o aprendizado e revela padroes de erros recorrentes.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Documentacao de aprendizado, analise retrospectiva, padroes de erro, melhoria continua, biblioteca de anti-padroes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botoes de Acao -->
+        <div class="p-4 bg-dark-700/30 flex justify-start space-x-3">
+          <button onclick="openModal('lab-4-1.html')" class="px-4 py-2 text-sm bg-amber-600/20 hover:bg-amber-600/30 text-amber-400 border border-amber-500/30 rounded-lg font-medium transition-colors">
+            📖 Ver em Modal
+          </button>
+          <a href="lab-4-1.html" class="px-4 py-2 text-sm bg-amber-600 hover:bg-amber-500 text-white rounded-lg font-medium transition-colors">
+            📄 Ver Completo
+          </a>
+        </div>
+      </div>
+
+      <!-- Lab 4.2 -->
+      <div class="bg-dark-800 rounded-2xl border border-dark-600 overflow-hidden hover:border-amber-500/30 transition-all">
+        <a href="lab-4-2.html" class="block p-6 sm:p-8">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <div class="flex items-center space-x-3 mb-3">
+                <span class="w-10 h-10 bg-amber-500/20 text-amber-400 rounded-xl flex items-center justify-center font-bold">4.2</span>
+                <span class="text-neutral-500 text-sm">120 min</span>
+              </div>
+              <h2 class="text-xl sm:text-2xl font-bold mb-2">
+                Leitura Reversa
+              </h2>
+              <p class="text-neutral-400">
+                Desconstrua obras-primas para entender como foram feitas. Engenharia reversa aplicada ao audiovisual.
+              </p>
+            </div>
+            <span class="text-amber-400 text-2xl ml-4">→</span>
+          </div>
+        </a>
+
+        <div class="border-t border-dark-600 divide-y divide-dark-700">
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">1</span>
+            <span class="text-lg mr-2">🔍</span><span class="flex-1 text-sm font-medium">Metodologia de Desconstrucao</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Framework sistematico para analisar qualquer video em suas partes: estrutura narrativa, tecnica de execucao, emocao gerada e decisoes criativas.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Transforma voce de espectador passivo em analista ativo. Cada video que voce assiste se torna uma aula. Desenvolve o olhar do profissional.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Engenharia reversa, analise frame a frame, mapeamento de decisoes, olhar critico, desconstrucao narrativa.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">2</span>
+            <span class="text-lg mr-2">📊</span><span class="flex-1 text-sm font-medium">Exercicio: Anatomia de um Viral</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Selecione 3 videos virais do seu nicho e analise frame a frame os primeiros 3 segundos. Mapeie ganchos, ritmo e elementos de retencao.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Os primeiros segundos definem o sucesso de um video. Entender padroes de viralizacao permite replicar elementos que funcionam.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Ganchos de atencao, pattern interrupt, retencao inicial, elementos virais, analise de tendencias.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">3</span>
+            <span class="text-lg mr-2">🎬</span><span class="flex-1 text-sm font-medium">Exercicio: Desmontando Cinema</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Analise uma cena iconica de cinema mapeando cada decisao: enquadramento, iluminacao, movimento de camera, design de som e ritmo de corte.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Cinema e a forma mais refinada de audiovisual. Desconstruir mestres ensina principios atemporais que elevam qualquer producao.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Composicao cinematografica, blocking, mise-en-scene, sound design, montagem, intencao autoral.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">4</span>
+            <span class="text-lg mr-2">📺</span><span class="flex-1 text-sm font-medium">Exercicio: Reverse Engineering de Canal</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Escolha um canal de sucesso e analise sistematicamente: formato de videos, frequencia de postagem, estilo de thumbnails, estrutura de titulos e CTAs.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Canais bem-sucedidos seguem padroes. Extrair o playbook de quem ja funciona acelera seu crescimento sem precisar copiar.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Analise de canal, playbook de conteudo, padroes de crescimento, benchmark, modelagem de sucesso.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">5</span>
+            <span class="text-lg mr-2">🎨</span><span class="flex-1 text-sm font-medium">Exercicio: Transcricao de Estilo</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Recrie uma peca existente usando seus proprios recursos. Nao copie literalmente - interprete e adapte mantendo a essencia.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Tentar reproduzir expoe o que voce ainda nao domina. O gap entre referencia e resultado mostra exatamente onde evoluir.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Interpretacao de estilo, adaptacao criativa, limitacoes como oportunidade, gap de execucao, aprendizado pratico.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">6</span>
+            <span class="text-lg mr-2">📚</span><span class="flex-1 text-sm font-medium">Biblioteca de Referencias</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Sistema para organizar uma swipe file de referencias audiovisuais com categorizacao por tecnica, mood, estilo e aplicacao.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Criadores de elite tem acervos de inspiracao curados. Uma biblioteca bem organizada acelera briefings e desbloqueia criatividade sob demanda.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Swipe file, categorizacao de referencias, moodboard, inspiracao organizada, acervo criativo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botoes de Acao -->
+        <div class="p-4 bg-dark-700/30 flex justify-start space-x-3">
+          <button onclick="openModal('lab-4-2.html')" class="px-4 py-2 text-sm bg-amber-600/20 hover:bg-amber-600/30 text-amber-400 border border-amber-500/30 rounded-lg font-medium transition-colors">
+            📖 Ver em Modal
+          </button>
+          <a href="lab-4-2.html" class="px-4 py-2 text-sm bg-amber-600 hover:bg-amber-500 text-white rounded-lg font-medium transition-colors">
+            📄 Ver Completo
+          </a>
+        </div>
+      </div>
+
+      <!-- Lab 4.3 -->
+      <div class="bg-dark-800 rounded-2xl border border-dark-600 overflow-hidden hover:border-amber-500/30 transition-all">
+        <a href="lab-4-3.html" class="block p-6 sm:p-8">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <div class="flex items-center space-x-3 mb-3">
+                <span class="w-10 h-10 bg-amber-500/20 text-amber-400 rounded-xl flex items-center justify-center font-bold">4.3</span>
+                <span class="text-neutral-500 text-sm">100 min</span>
+              </div>
+              <h2 class="text-xl sm:text-2xl font-bold mb-2">
+                Modo Estudio
+              </h2>
+              <p class="text-neutral-400">
+                Simule a operacao de um estudio profissional. Processos, checklists e mentalidade de producao em escala.
+              </p>
+            </div>
+            <span class="text-amber-400 text-2xl ml-4">→</span>
+          </div>
+        </a>
+
+        <div class="border-t border-dark-600 divide-y divide-dark-700">
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">1</span>
+            <span class="text-lg mr-2">🏢</span><span class="flex-1 text-sm font-medium">Mentalidade de Estudio</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">A diferenca entre hobbyista e profissional nao e equipamento - e processo. Pensar em sistemas ao inves de projetos isolados.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Sistemas permitem escalar producao sem escalar esforco. Voce produz mais com menos stress quando tem processos definidos.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Sistematizacao, processos replicaveis, mentalidade de escala, profissionalismo, eficiencia operacional.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">2</span>
+            <span class="text-lg mr-2">⚙️</span><span class="flex-1 text-sm font-medium">Exercicio: Setup de Producao</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Configure seu espaco de trabalho fisico e digital de forma otimizada. Crie checklists de setup para eliminar friccao antes de produzir.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Cada minuto gasto procurando arquivos ou ajustando equipamento e um minuto roubado da criacao. Setup otimizado libera energia criativa.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Workspace optimization, organizacao de arquivos, templates de projeto, checklist de equipamento, eliminacao de friccao.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">3</span>
+            <span class="text-lg mr-2">🎥</span><span class="flex-1 text-sm font-medium">Exercicio: Dia de Gravacao Simulado</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Execute um dia completo de producao com cronograma real: call sheet, setup, gravacao, wrap. Documente tempos e gargalos.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Simular um dia de producao profissional expoe falhas no processo antes de um projeto real. Voce descobre gargalos em ambiente controlado.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Call sheet, cronograma de producao, gestao de tempo, wrap, documentacao de processo.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">4</span>
+            <span class="text-lg mr-2">📋</span><span class="flex-1 text-sm font-medium">Exercicio: Pipeline de 3 Videos</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Produza 3 videos em pipeline simultaneo: um em pre-producao, um em producao, um em pos-producao. Gestao de projetos paralelos.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Profissionais nunca trabalham em um projeto so. Aprender a gerenciar multiplos projetos e essencial para consistencia de publicacao.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Pipeline de producao, gestao de projetos, batching, paralelismo, consistencia de output.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">5</span>
+            <span class="text-lg mr-2">✅</span><span class="flex-1 text-sm font-medium">Exercicio: QA e Revisao</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Implemente um processo de Quality Assurance com checklist de revisao pre-publicacao. Sistema para nunca mais publicar com erros.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Erros em videos publicados destroem credibilidade. Um processo de QA sistematico pega problemas antes que a audiencia veja.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Quality Assurance, checklist de revisao, verificacao tecnica, controle de qualidade, processo de aprovacao.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">6</span>
+            <span class="text-lg mr-2">📝</span><span class="flex-1 text-sm font-medium">Post-Mortem de Producao</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Analise retrospectiva estruturada de cada producao: o que funcionou, o que falhou, o que mudar. Melhoria continua documentada.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Sem reflexao, voce repete os mesmos erros. Post-mortems transformam cada projeto em aprendizado que eleva o proximo.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Retrospectiva, lessons learned, melhoria continua, documentacao de processo, evolucao sistematica.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botoes de Acao -->
+        <div class="p-4 bg-dark-700/30 flex justify-start space-x-3">
+          <button onclick="openModal('lab-4-3.html')" class="px-4 py-2 text-sm bg-amber-600/20 hover:bg-amber-600/30 text-amber-400 border border-amber-500/30 rounded-lg font-medium transition-colors">
+            📖 Ver em Modal
+          </button>
+          <a href="lab-4-3.html" class="px-4 py-2 text-sm bg-amber-600 hover:bg-amber-500 text-white rounded-lg font-medium transition-colors">
+            📄 Ver Completo
+          </a>
+        </div>
+      </div>
+
+      <!-- Lab 4.4 -->
+      <div class="bg-dark-800 rounded-2xl border border-dark-600 overflow-hidden hover:border-amber-500/30 transition-all">
+        <a href="lab-4-4.html" class="block p-6 sm:p-8">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <div class="flex items-center space-x-3 mb-3">
+                <span class="w-10 h-10 bg-amber-500/20 text-amber-400 rounded-xl flex items-center justify-center font-bold">4.4</span>
+                <span class="text-neutral-500 text-sm">110 min</span>
+              </div>
+              <h2 class="text-xl sm:text-2xl font-bold mb-2">
+                Portfolio com IA
+              </h2>
+              <p class="text-neutral-400">
+                Construa um portfolio impressionante usando IA como acelerador. Demonstre habilidades que voce ainda esta desenvolvendo.
+              </p>
+            </div>
+            <span class="text-amber-400 text-2xl ml-4">→</span>
+          </div>
+        </a>
+
+        <div class="border-t border-dark-600 divide-y divide-dark-700">
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">1</span>
+            <span class="text-lg mr-2">🎯</span><span class="flex-1 text-sm font-medium">Estrategia de Portfolio</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Planejamento estrategico de portfolio: o que mostrar, para quem, e como. Diferencas entre portfolio para clientes vs para audiencia.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Um portfolio sem estrategia e so uma colecao de trabalhos. Com estrategia, cada peca serve a um proposito de posicionamento.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Posicionamento, curacao de trabalhos, persona de cliente, qualidade vs quantidade, especializacao.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">2</span>
+            <span class="text-lg mr-2">💡</span><span class="flex-1 text-sm font-medium">Exercicio: Spec Work com IA</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Crie pecas especulativas para marcas que voce admira, sem cliente real. Use IA para acelerar producao e demonstrar potencial.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Spec work permite mostrar o trabalho que voce quer fazer, nao so o que ja fez. E uma porta de entrada para novos nichos.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Spec work, trabalho especulativo, demonstracao de potencial, transicao de nicho, portfolio aspiracional.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">3</span>
+            <span class="text-lg mr-2">🎞️</span><span class="flex-1 text-sm font-medium">Exercicio: Showreel Completo</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Monte um reel de 60-90 segundos com seus melhores momentos. Edicao que impressiona nos primeiros 5 segundos e mantem interesse.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">O showreel e seu cartao de visita em movimento. Quem contrata quer ver competencia em segundos, nao minutos.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Showreel, curacao de melhores momentos, ritmo de apresentacao, primeira impressao, hook visual.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">4</span>
+            <span class="text-lg mr-2">📖</span><span class="flex-1 text-sm font-medium">Exercicio: Case Study</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Documentacao completa de um projeto: do briefing ao resultado final. Mostre seu processo de criacao, nao so o produto.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Clientes sofisticados querem entender como voce pensa, nao so o que voce faz. Case studies demonstram metodologia e profissionalismo.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Case study, documentacao de processo, storytelling de projeto, metodologia, resultados mensuráveis.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">5</span>
+            <span class="text-lg mr-2">🌐</span><span class="flex-1 text-sm font-medium">Exercicio: Presenca Online</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Configure seus canais profissionais: Behance, Vimeo, LinkedIn, site pessoal. Crie consistencia visual e mensagem clara.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Presenca online fragmentada confunde. Quando todos os seus canais contam a mesma historia, voce se torna memoravel.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Branding pessoal, consistencia visual, plataformas profissionais, SEO de portfolio, presenca digital.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">6</span>
+            <span class="text-lg mr-2">🎤</span><span class="flex-1 text-sm font-medium">Pitch e Apresentacao</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Tecnicas para apresentar seu trabalho de forma memoravel. O pitch de 30 segundos que responde "o que voce faz?" de forma impactante.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Oportunidades surgem em conversas. Saber se apresentar de forma clara e memoravel abre portas que portfolios online nao alcancam.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Elevator pitch, apresentacao pessoal, networking, comunicacao de valor, first impression.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botoes de Acao -->
+        <div class="p-4 bg-dark-700/30 flex justify-start space-x-3">
+          <button onclick="openModal('lab-4-4.html')" class="px-4 py-2 text-sm bg-amber-600/20 hover:bg-amber-600/30 text-amber-400 border border-amber-500/30 rounded-lg font-medium transition-colors">
+            📖 Ver em Modal
+          </button>
+          <a href="lab-4-4.html" class="px-4 py-2 text-sm bg-amber-600 hover:bg-amber-500 text-white rounded-lg font-medium transition-colors">
+            📄 Ver Completo
+          </a>
+        </div>
+      </div>
+
+      <!-- Lab 4.5 -->
+      <div class="bg-dark-800 rounded-2xl border border-dark-600 overflow-hidden hover:border-amber-500/30 transition-all">
+        <a href="lab-4-5.html" class="block p-6 sm:p-8">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <div class="flex items-center space-x-3 mb-3">
+                <span class="w-10 h-10 bg-amber-500/20 text-amber-400 rounded-xl flex items-center justify-center font-bold">4.5</span>
+                <span class="text-neutral-500 text-sm">180 min</span>
+              </div>
+              <h2 class="text-xl sm:text-2xl font-bold mb-2">
+                Projeto Final: Producao Completa
+              </h2>
+              <p class="text-neutral-400">
+                Aplique tudo que aprendeu em uma producao completa do zero. Do briefing a publicacao usando IA como parceira.
+              </p>
+            </div>
+            <span class="text-amber-400 text-2xl ml-4">→</span>
+          </div>
+        </a>
+
+        <div class="border-t border-dark-600 divide-y divide-dark-700">
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">1</span>
+            <span class="text-lg mr-2">📋</span><span class="flex-1 text-sm font-medium">Briefing e Conceito</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Definicao completa do projeto final: objetivo, publico-alvo, formato e recursos disponiveis. Use IA para explorar conceitos e validar a ideia.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Um briefing bem definido e metade do projeto feito. Clareza no inicio evita retrabalho e frustracao durante a execucao.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Briefing criativo, definicao de escopo, validacao de conceito, alinhamento de expectativas, viabilidade de projeto.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">2</span>
+            <span class="text-lg mr-2">🗂️</span><span class="flex-1 text-sm font-medium">Pre-Producao com IA</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Roteiro, storyboard e planejamento visual assistidos por IA. Prepare cada detalhe antes de executar para maximizar eficiencia.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Pre-producao com IA permite iterar ideias rapidamente antes de investir tempo e recursos em producao. Erros no papel custam menos.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Pre-producao assistida, storyboard com IA, planejamento visual, iteracao rapida, preparacao eficiente.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">3</span>
+            <span class="text-lg mr-2">🎬</span><span class="flex-1 text-sm font-medium">Producao Hibrida</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Combinacao de footage real com assets gerados por IA. Grave o que puder, gere o que nao puder, com integracao seamless entre ambos.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Producao hibrida expande dramaticamente suas possibilidades criativas. Voce nao esta mais limitado ao que pode filmar fisicamente.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Producao hibrida, integracao de assets, geracao de imagens, compositing, expansao criativa.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">4</span>
+            <span class="text-lg mr-2">⚡</span><span class="flex-1 text-sm font-medium">Pos-Producao Acelerada</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Edicao, color grading, audio e motion graphics com ferramentas de IA em cada etapa. Documente o tempo economizado em cada processo.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">IA na pos-producao pode reduzir horas para minutos. Saber onde aplicar cada ferramenta maximiza o retorno de tempo.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Pos-producao automatizada, color grading com IA, audio enhancement, motion graphics, otimizacao de workflow.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">5</span>
+            <span class="text-lg mr-2">📤</span><span class="flex-1 text-sm font-medium">Distribuicao Estrategica</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Preparacao para multiplas plataformas: geracao de clips derivados, thumbnails variadas, descricoes otimizadas. Publicacao e acompanhamento de metricas.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Um video pode virar dezenas de pecas de conteudo. Distribuicao estrategica multiplica o alcance de cada producao.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Repurposing, distribuicao multiplataforma, derivados de conteudo, otimizacao por plataforma, analytics.</p>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="toggleTopic(this)" class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left">
+            <span class="w-6 h-6 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center text-xs font-bold">6</span>
+            <span class="text-lg mr-2">🔄</span><span class="flex-1 text-sm font-medium">Retrospectiva e Proximos Passos</span>
+            <span class="text-neutral-500 text-lg">+</span>
+          </button>
+          <div class="topic-explanation px-6 pb-4">
+            <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+              <div>
+                <span class="text-amber-400 font-semibold">O que e:</span>
+                <p class="text-neutral-300 text-sm mt-1">Analise completa da producao final: o que aprendeu, o que faria diferente, quais habilidades desenvolver. Trace seu caminho de evolucao continua.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Por que aprender:</span>
+                <p class="text-neutral-300 text-sm mt-1">Concluir um projeto sem reflexao e desperdicar metade do aprendizado. A retrospectiva transforma experiencia em crescimento.</p>
+              </div>
+              <div>
+                <span class="text-amber-400 font-semibold">Conceitos-chave:</span>
+                <p class="text-neutral-300 text-sm mt-1">Retrospectiva de projeto, roadmap de desenvolvimento, evolucao continua, identidificacao de gaps, proximos desafios.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botoes de Acao -->
+        <div class="p-4 bg-dark-700/30 flex justify-start space-x-3">
+          <button onclick="openModal('lab-4-5.html')" class="px-4 py-2 text-sm bg-amber-600/20 hover:bg-amber-600/30 text-amber-400 border border-amber-500/30 rounded-lg font-medium transition-colors">
+            📖 Ver em Modal
+          </button>
+          <a href="lab-4-5.html" class="px-4 py-2 text-sm bg-amber-600 hover:bg-amber-500 text-white rounded-lg font-medium transition-colors">
+            📄 Ver Completo
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal-overlay" class="fixed inset-0 z-50 hidden">
+    <div class="absolute inset-0 bg-black/80 backdrop-blur-sm" onclick="closeModal()"></div>
+    <div class="relative z-10 w-full h-full flex items-center justify-center p-4">
+      <div class="bg-dark-800 rounded-2xl w-full max-w-4xl max-h-[90vh] overflow-hidden border border-dark-600">
+        <div class="flex items-center justify-between p-4 border-b border-dark-600">
+          <span class="text-amber-400 font-semibold">Visualizacao do Lab</span>
+          <button onclick="closeModal()" class="p-2 hover:bg-dark-700 rounded-lg transition-colors text-neutral-400 hover:text-white">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+        <div id="modal-content" class="p-6 overflow-y-auto max-h-[calc(90vh-80px)]">
+          <!-- Conteudo carregado via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-dark-600 bg-dark-800/50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="text-center">
+        <p class="text-neutral-500 text-sm mb-4">
+          VisionPro - Metodo Pratico de Criacao Audiovisual com IA
+        </p>
+        <div class="flex justify-center space-x-6">
+          <a href="../trilha1/index.html" class="text-emerald-400 hover:text-emerald-300 text-sm">Trilha 1</a>
+          <a href="../trilha2/index.html" class="text-blue-400 hover:text-blue-300 text-sm">Trilha 2</a>
+          <a href="../trilha3/index.html" class="text-purple-400 hover:text-purple-300 text-sm">Trilha 3</a>
+          <a href="index.html" class="text-amber-400 hover:text-amber-300 text-sm font-medium">Trilha 4</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleTopic(button) {
+      const explanation = button.nextElementSibling;
+      const icon = button.querySelector('span:last-child');
+
+      // Close other open explanations in same module
+      const moduleCard = button.closest('.bg-dark-800');
+      moduleCard.querySelectorAll('.topic-explanation.active').forEach(exp => {
+        if (exp !== explanation) {
+          exp.classList.remove('active');
+          const otherButton = exp.previousElementSibling;
+          const otherIcon = otherButton.querySelector('span:last-child');
+          if (otherIcon) otherIcon.textContent = '+';
+        }
+      });
+
+      explanation.classList.toggle('active');
+      icon.textContent = explanation.classList.contains('active') ? '−' : '+';
+    }
+
+    function openModal(labUrl) {
+      const modal = document.getElementById('modal-overlay');
+      const content = document.getElementById('modal-content');
+      modal.classList.remove('hidden');
+      content.innerHTML = '<div class="flex items-center justify-center h-64"><div class="animate-spin rounded-full h-12 w-12 border-b-2 border-amber-400"></div></div>';
+
+      fetch(labUrl)
+        .then(response => response.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(html, 'text/html');
+          const mainContent = doc.querySelector('section.py-16:last-of-type .max-w-4xl');
+          if (mainContent) {
+            content.innerHTML = mainContent.innerHTML;
+          } else {
+            content.innerHTML = '<p class="text-center text-neutral-400">Conteudo nao encontrado.</p>';
+          }
+        })
+        .catch(err => {
+          content.innerHTML = '<p class="text-center text-red-400">Erro ao carregar conteudo.</p>';
+        });
+    }
+
+    function closeModal() {
+      document.getElementById('modal-overlay').classList.add('hidden');
+    }
+
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+  </script>
+</body>
+</html>
