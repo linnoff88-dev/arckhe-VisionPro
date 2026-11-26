@@ -2,9 +2,9 @@
 ## Laboratórios, Dispositivos e Expansões do Método
 
 > **Objetivo dos conteúdos extras:**  
-> aprofundar a formação com **dispositivos práticos** que quase nenhuma escola ensina, elevando o criador do domínio técnico para a **maturidade decisória e estratégica**.
+> aprofundar a formaçêo com **dispositivos práticos** que quase nenhuma escola ensina, elevando o criador do domínio técnico para a **maturidade decisória e estratégica**.
 
-Esses conteúdos **não são obrigatórios**, mas funcionam como:
+Esses conteúdos **nêo sêo obrigatórios**, mas funcionam como:
 - diferenciais de elite
 - módulos experimentais
 - laboratórios avançados
@@ -14,34 +14,34 @@ Esses conteúdos **não são obrigatórios**, mas funcionam como:
 
 # 🧪 BLOCO EXTRA A – FALHAS GUIADAS
 
-### Função do bloco
+### Funçêo do bloco
 Ensinar o aluno a **errar de forma produtiva**, consciente e analisável.
 
 ### Conteúdos
 1. Erro como ferramenta de aprendizado  
 2. Tipos de erro audiovisual (narrativo, visual, rítmico)  
-3. Construção deliberada de falhas  
+3. Construçêo deliberada de falhas  
 4. Diagnóstico de erro com IA  
-5. Reconstrução orientada  
+5. Reconstruçêo orientada  
 6. Registro de aprendizados
 
 🎯 **Resultado:**  
-Capacidade de **aprender mais rápido** e evitar repetição de erros inconscientes.
+Capacidade de **aprender mais rápido** e evitar repetiçêo de erros inconscientes.
 
 ---
 
 # 🧠 BLOCO EXTRA B – LEITURA REVERSA DE FILMES
 
-### Função do bloco
-Treinar o olhar profissional a partir do **resultado final**, não do processo.
+### Funçêo do bloco
+Treinar o olhar profissional a partir do **resultado final**, nêo do processo.
 
 ### Conteúdos
 1. Começar pelo impacto final  
-2. Decomposição de cenas  
-3. Identificação de decisões invisíveis  
-4. Leitura de ritmo e emoção  
-5. Reconstrução do mapa narrativo  
-6. Extração de princípios reutilizáveis
+2. Decomposiçêo de cenas  
+3. Identificaçêo de decisões invisíveis  
+4. Leitura de ritmo e emoçêo  
+5. Reconstruçêo do mapa narrativo  
+6. Extraçêo de princípios reutilizáveis
 
 🎯 **Resultado:**  
 Capacidade de **aprender com qualquer filme**, comercial ou conteúdo.
@@ -50,25 +50,25 @@ Capacidade de **aprender com qualquer filme**, comercial ou conteúdo.
 
 # 📐 BLOCO EXTRA C – CHECKLISTS COGNITIVOS
 
-### Função do bloco
+### Funçêo do bloco
 Evitar erros recorrentes e sobrecarga criativa.
 
 ### Conteúdos
-1. Checklists pré-decisão  
+1. Checklists pré-decisêo  
 2. Checklists de continuidade  
 3. Checklists de clareza narrativa  
-4. Checklists de produção mínima  
-5. Checklists de finalização  
-6. Checklists de publicação
+4. Checklists de produçêo mínima  
+5. Checklists de finalizaçêo  
+6. Checklists de publicaçêo
 
 🎯 **Resultado:**  
-Consistência criativa sem depender de inspiração.
+Consistência criativa sem depender de inspiraçêo.
 
 ---
 
-# 🎛️ BLOCO EXTRA D – MODO ESTÚDIO (SIMULAÇÃO REAL)
+# 🎛️ BLOCO EXTRA D – MODO ESTÚDIO (SIMULAÇêO REAL)
 
-### Função do bloco
+### Funçêo do bloco
 Simular ambiente profissional real.
 
 ### Conteúdos
@@ -77,25 +77,25 @@ Simular ambiente profissional real.
 3. Limitações artificiais  
 4. Mudança de escopo no meio do processo  
 5. Feedback externo simulado  
-6. Ajustes sob pressão
+6. Ajustes sob pressêo
 
 🎯 **Resultado:**  
-Preparação emocional e técnica para o mercado real.
+Preparaçêo emocional e técnica para o mercado real.
 
 ---
 
 # 🧬 BLOCO EXTRA E – BIBLIOTECA DE DECISÕES
 
-### Função do bloco
+### Funçêo do bloco
 Criar memória criativa reutilizável.
 
 ### Conteúdos
 1. Registro de decisões narrativas  
 2. Registro de soluções visuais  
 3. Mapeamento de padrões funcionais  
-4. Decisão por contexto  
+4. Decisêo por contexto  
 5. IA como memória criativa  
-6. Evolução da biblioteca pessoal
+6. Evoluçêo da biblioteca pessoal
 
 🎯 **Resultado:**  
 O criador constrói um **repertório próprio sistematizado**.
@@ -114,7 +114,7 @@ Ao utilizar esses blocos, o aluno:
 
 ---
 
-# 🔗 CONEXÃO COM A FORMAÇÃO PRINCIPAL
+# 🔗 CONEXêO COM A FORMAÇêO PRINCIPAL
 
 Esses conteúdos podem ser usados como:
 
@@ -126,6 +126,6 @@ Esses conteúdos podem ser usados como:
 
 ---
 
-**Versão:** 1.0  
+**Versêo:** 1.0  
 **Status:** Conteúdo extra complementar do método
 

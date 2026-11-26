@@ -1,19 +1,19 @@
-# 🎬 MÉTODO PRÁTICO DE CONSTRUÇÃO AUDIOVISUAL COM IA
+# 🎬 MÉTODO PRÁTICO DE CONSTRUÇêO AUDIOVISUAL COM IA
 ## Sistema Operacional para Criadores Contemporâneos
 
 > **Propósito do método:**  
-> ensinar **como construir audiovisual de forma profissional**, com clareza de decisão, resultado rápido e **IA integrada desde o primeiro dia**.
+> ensinar **como construir audiovisual de forma profissional**, com clareza de decisêo, resultado rápido e **IA integrada desde o primeiro dia**.
 
-Este método não ensina ferramentas isoladas.  
-Ele ensina **uma sequência lógica de construção**, usada em estúdios, laboratórios criativos e produção profissional.
+Este método nêo ensina ferramentas isoladas.  
+Ele ensina **uma sequência lógica de construçêo**, usada em estúdios, laboratórios criativos e produçêo profissional.
 
 ---
 
-## 📐 VISÃO GERAL DO MÉTODO
+## 📐 VISêO GERAL DO MÉTODO
 
 - **Nível:** Intermediário → Avançado  
-- **Pré-requisito:** Trilha Prévia – Fundamentos de Construção Audiovisual  
-- **Formato ideal:** prática guiada + execução real  
+- **Pré-requisito:** Trilha Prévia – Fundamentos de Construçêo Audiovisual  
+- **Formato ideal:** prática guiada + execuçêo real  
 - **Resultado final:** filmes, vídeos ou conteúdos **finalizados, testados e escaláveis**
 
 > Pergunta central do método:  
@@ -30,16 +30,16 @@ Cada capítulo entrega um **resultado concreto**, que alimenta o próximo.
 
 ## 🔹 CAPÍTULO 1 – DEFINIR O PROBLEMA NARRATIVO
 
-### Função do capítulo
-Eliminar confusão criativa antes de qualquer produção.
+### Funçêo do capítulo
+Eliminar confusêo criativa antes de qualquer produçêo.
 
 ### Etapas
-1. Definir a emoção principal a ser causada  
+1. Definir a emoçêo principal a ser causada  
 2. Identificar o público específico  
 3. Determinar o problema central da história  
-4. Estabelecer a transformação final  
-5. Definir duração máxima do conteúdo  
-6. Definir plataforma de publicação
+4. Estabelecer a transformaçêo final  
+5. Definir duraçêo máxima do conteúdo  
+6. Definir plataforma de publicaçêo
 
 🎯 **Entrega:** Brief narrativo claro e acionável
 
@@ -47,16 +47,16 @@ Eliminar confusão criativa antes de qualquer produção.
 
 ## 🔹 CAPÍTULO 2 – GERAR IDEIAS DIRECIONADAS COM IA
 
-### Função do capítulo
-Usar IA como **acelerador de intenção**, não como gerador aleatório.
+### Funçêo do capítulo
+Usar IA como **acelerador de intençêo**, nêo como gerador aleatório.
 
 ### Etapas
-1. Construção de prompt com objetivo narrativo  
-2. Geração rápida de múltiplas ideias  
-3. Filtro por emoção, clareza e viabilidade  
-4. Seleção da ideia mais forte  
-5. Teste de variação de gênero e tom  
-6. Definição do conceito final
+1. Construçêo de prompt com objetivo narrativo  
+2. Geraçêo rápida de múltiplas ideias  
+3. Filtro por emoçêo, clareza e viabilidade  
+4. Seleçêo da ideia mais forte  
+5. Teste de variaçêo de gênero e tom  
+6. Definiçêo do conceito final
 
 🎯 **Entrega:** Ideia validada e filmável
 
@@ -64,16 +64,16 @@ Usar IA como **acelerador de intenção**, não como gerador aleatório.
 
 ## 🔹 CAPÍTULO 3 – CONSTRUIR PERSONAGENS FUNCIONAIS
 
-### Função do capítulo
-Criar personagens que **funcionam em imagem**, não em texto.
+### Funçêo do capítulo
+Criar personagens que **funcionam em imagem**, nêo em texto.
 
 ### Etapas
-1. Definição do desejo principal  
-2. Identificação do limite interno ou externo  
-3. Construção de símbolo visual  
-4. Definição de comportamento e ação  
-5. Relação direta com o conflito  
-6. Arco de transformação
+1. Definiçêo do desejo principal  
+2. Identificaçêo do limite interno ou externo  
+3. Construçêo de símbolo visual  
+4. Definiçêo de comportamento e açêo  
+5. Relaçêo direta com o conflito  
+6. Arco de transformaçêo
 
 🎯 **Entrega:** Ficha de personagem funcional
 
@@ -81,15 +81,15 @@ Criar personagens que **funcionam em imagem**, não em texto.
 
 ## 🔹 CAPÍTULO 4 – ESTRUTURAR A HISTÓRIA EM CENAS
 
-### Função do capítulo
-Pensar narrativa como **sequência visual**, não como texto corrido.
+### Funçêo do capítulo
+Pensar narrativa como **sequência visual**, nêo como texto corrido.
 
 ### Etapas
 1. Cena de abertura com impacto  
-2. Apresentação do conflito  
-3. Tentativa de resolução  
+2. Apresentaçêo do conflito  
+3. Tentativa de resoluçêo  
 4. Crise ou virada central  
-5. Resolução narrativa  
+5. Resoluçêo narrativa  
 6. Imagem final memorável
 
 🎯 **Entrega:** Mapa de cenas visual
@@ -98,84 +98,84 @@ Pensar narrativa como **sequência visual**, não como texto corrido.
 
 ## 🔹 CAPÍTULO 5 – ESCREVER ROTEIRO CURTO COM IA
 
-### Função do capítulo
-Gerar texto que **vira imagem**, não literatura.
+### Funçêo do capítulo
+Gerar texto que **vira imagem**, nêo literatura.
 
 ### Etapas
-1. Descrição visual objetiva  
-2. Ação antes de diálogo  
+1. Descriçêo visual objetiva  
+2. Açêo antes de diálogo  
 3. Diálogo mínimo e funcional  
-4. Ritmo de leitura e duração  
+4. Ritmo de leitura e duraçêo  
 5. Versões curta e estendida  
 6. Ajuste de tom por público
 
-🎯 **Entrega:** Roteiro pronto para produção
+🎯 **Entrega:** Roteiro pronto para produçêo
 
 ---
 
 ## 🔹 CAPÍTULO 6 – VISUALIZAR ANTES DE PRODUZIR
 
-### Função do capítulo
+### Funçêo do capítulo
 Reduzir erro, custo e retrabalho.
 
 ### Etapas
 1. Storyboard assistido por IA  
-2. Definição de enquadramentos-chave  
-3. Visualização de personagens  
-4. Criação de cenários reais ou digitais  
+2. Definiçêo de enquadramentos-chave  
+3. Visualizaçêo de personagens  
+4. Criaçêo de cenários reais ou digitais  
 5. Teste de paleta de cores e atmosfera  
-6. Validação de continuidade visual
+6. Validaçêo de continuidade visual
 
-🎯 **Entrega:** Filme visualizado antes da produção
+🎯 **Entrega:** Filme visualizado antes da produçêo
 
 ---
 
-## 🔹 CAPÍTULO 7 – DECIDIR PRODUÇÃO REAL OU DIGITAL
+## 🔹 CAPÍTULO 7 – DECIDIR PRODUÇêO REAL OU DIGITAL
 
-### Função do capítulo
+### Funçêo do capítulo
 Economizar recursos sem perder impacto.
 
 ### Etapas
-1. Identificação do que precisa ser real  
-2. Identificação do que pode ser gerado  
-3. Pontos de integração híbrida  
-4. Definição de gravação mínima necessária  
+1. Identificaçêo do que precisa ser real  
+2. Identificaçêo do que pode ser gerado  
+3. Pontos de integraçêo híbrida  
+4. Definiçêo de gravaçêo mínima necessária  
 5. Planejamento das cenas reais  
-6. Checklist de produção
+6. Checklist de produçêo
 
-🎯 **Entrega:** Plano de produção híbrida
+🎯 **Entrega:** Plano de produçêo híbrida
 
 ---
 
 ## 🔹 CAPÍTULO 8 – CONSTRUIR CENAS NA PRÁTICA
 
-### Função do capítulo
+### Funçêo do capítulo
 Executar com foco, simplicidade e controle.
 
 ### Etapas
-1. Gravação objetiva e intencional  
-2. Direção simples de atores ou personagens  
+1. Gravaçêo objetiva e intencional  
+2. Direçêo simples de atores ou personagens  
 3. Uso eficiente de luz disponível  
-4. Captação de som funcional  
-5. Integração com cenas geradas por IA  
-6. Organização técnica dos arquivos
+4. Captaçêo de som funcional  
+5. Integraçêo com cenas geradas por IA  
+6. Organizaçêo técnica dos arquivos
 
-🎯 **Entrega:** Cenas brutas prontas para edição
+🎯 **Entrega:** Cenas brutas prontas para ediçêo
 
 ---
 
-## 🔹 CAPÍTULO 9 – MONTAGEM E FINALIZAÇÃO
+## 🔹 CAPÍTULO 9 – MONTAGEM E FINALIZAÇêO
 
-### Função do capítulo
+### Funçêo do capítulo
 Construir a história definitiva.
 
 ### Etapas
-1. Montagem orientada por emoção  
+1. Montagem orientada por emoçêo  
 2. Corte assistido por IA  
 3. Ajuste fino de ritmo  
-4. Inserção de trilha e som  
-5. Correção básica de imagem  
-6. Geração de versões alternativas
+4. Inserçêo de trilha e som  
+5. Correçêo básica de imagem  
+6. Geraçêo de versões alternativas
 
 🎯 **Entrega:** Filme finalizado
 
@@ -183,15 +183,15 @@ Construir a história definitiva.
 
 ## 🔹 CAPÍTULO 10 – TESTAR, AJUSTAR E ESCALAR
 
-### Função do capítulo
+### Funçêo do capítulo
 Transformar conteúdo em sistema vivo.
 
 ### Etapas
 1. Teste rápido com público real  
 2. Ajustes narrativos finais  
-3. Criação de cortes curtos e variações  
+3. Criaçêo de cortes curtos e variações  
 4. Planejamento de séries ou desdobramentos  
-5. Publicação estratégica  
+5. Publicaçêo estratégica  
 6. Reaproveitamento e escala
 
 🎯 **Entrega:** Conteúdo escalável e replicável
@@ -200,7 +200,7 @@ Transformar conteúdo em sistema vivo.
 
 # 🧠 ESSÊNCIA DO MÉTODO
 
-> **Não é sobre aprender ferramentas.**  
+> **Nêo é sobre aprender ferramentas.**  
 > **É sobre dominar uma sequência clara de decisões.**
 
 A IA atua como:
@@ -215,13 +215,13 @@ A IA atua como:
 Ao concluir o método, o aluno:
 
 - constrói audiovisual com clareza  
-- usa IA com intenção e controle  
+- usa IA com intençêo e controle  
 - entrega projetos finalizados  
-- está pronto para escalar produção  
+- está pronto para escalar produçêo  
 - pensa como criador profissional
 
 ---
 
-**Versão:** 2.0  
+**Versêo:** 2.0  
 **Status:** Documento central do método
 

@@ -558,7 +558,7 @@ async def generate_video(image_path: str, prompt: str, output_name: str) -> str:
 # AGENTE 4: AUDIO - VOZ (Coqui TTS)
 # ========================================
 async def generate_voice(text: str, output_name: str) -> str:
-    """Gera narração usando XTTS-v2"""
+    """Gera narraçêo usando XTTS-v2"""
 
     async with httpx.AsyncClient(timeout=120.0) as client:
         response = await client.get(
