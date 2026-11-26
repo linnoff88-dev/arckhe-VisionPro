@@ -220,4 +220,4 @@ Cada topico tem 3 secoes obrigatorias:
 
 **Documento gerado por:** Sarah (Product Owner - BMad Method)
 **Projeto:** VisionPro
-**Repositorio:** https://github.com/inematds/VisionPro
+**Repositorio:** https://github.com/linnoff88-dev/VisionPro

@@ -2,20 +2,20 @@
 
 Padrao visual e estrutural para o curso de Producao Audiovisual com IA.
 
-**Hospedagem:** GitHub Pages (https://inematds.github.io/VisionPro)
+**Hospedagem:** GitHub Pages (https://linnoff88-dev.github.io/arckhe-VisionPro)
 
 ---
 
 ## 1. Menu no Topo
 
 ```html
-[🎬 VisionPro] | [INEMA.CLUB]
+[🎬 VisionPro] | [ARCKHÉ AI]
 [Fundamentos] [Metodo] [Avancado] [Laboratorios] [🌙 Theme]
 ```
 
 **Elementos:**
 - Logo com emoji + nome do curso
-- Link externo para INEMA.CLUB (azul claro `text-sky-400`)
+- Link externo para ARCKHÉ AI (azul claro `text-sky-400`)
 - Botoes das 4 trilhas com descricao (ativo com cor, outros neutros)
   - T1: Fundamentos (emerald) - 8 modulos
   - T2: Metodo (blue) - 10 modulos
@@ -23,7 +23,7 @@ Padrao visual e estrutural para o curso de Producao Audiovisual com IA.
   - T4: Laboratorios (amber) - 5 modulos
 - Toggle de tema (dark/light)
 
-**INEMA.CLUB deve aparecer em TODAS as paginas (index, trilhas, modulos)**
+**ARCKHÉ AI deve aparecer em TODAS as paginas (index, trilhas, modulos)**
 
 ---
 
@@ -192,7 +192,7 @@ function closeModal() {
 
 ---
 
-## Link INEMA.CLUB
+## Link ARCKHÉ AI
 
 - Cor: `text-sky-400 hover:text-sky-300`
 - Deve aparecer em TODAS as paginas

@@ -24,7 +24,7 @@ O maior problema da v1 (manter personagens iguais entre cenas) foi **praticament
 | Seedance 1.0 | **41 segundos** |
 | Wan 2.1 | ~50 segundos (local) |
 
-### 3. Qualidade Cinematica
+### 3. Qualidade CARCKHÉtica
 
 - **Kling 2.6**: 48 FPS nativo, controle de voz integrado
 - **Seedance**: #1 nos benchmarks text-to-video e image-to-video
@@ -124,7 +124,7 @@ O maior problema da v1 (manter personagens iguais entre cenas) foi **praticament
 |  - FFmpeg / Remotion para timeline                               |
 |  - Color grading automatico                                      |
 |  - Legendas / credits                                            |
-|  - Export multi-formato (YT, TikTok, Cinema)                     |
+|  - Export multi-formato (YT, TikTok, CARCKHÉ)                     |
 +------------------------------------------------------------------+
                               |
                               v
@@ -135,7 +135,7 @@ O maior problema da v1 (manter personagens iguais entre cenas) foi **praticament
 |  +-- episodios/                                                  |
 |  |   +-- ep01-o-encontro.mp4 (1080p)                             |
 |  |   +-- ep01-o-encontro-vertical.mp4 (TikTok)                   |
-|  |   +-- ep01-o-encontro-4k.mp4 (Cinema)                         |
+|  |   +-- ep01-o-encontro-4k.mp4 (CARCKHÉ)                         |
 |  +-- assets/                                                     |
 |  |   +-- element-library/ (referencias de consistencia)          |
 |  |   +-- audio/                                                  |
@@ -274,7 +274,7 @@ garantindo consistencia automatica via Kling O1 / Seedance.
 | 6. Export em multiplos formatos:                                 |
 |    - 1080p 16:9 (YouTube)                                        |
 |    - 1080p 9:16 (TikTok/Reels)                                   |
-|    - 4K 16:9 (Cinema/TV)                                         |
+|    - 4K 16:9 (CARCKHÉ/TV)                                         |
 |    - 720p (Preview rapido)                                       |
 +------------------------------------------------------------------+
 ```

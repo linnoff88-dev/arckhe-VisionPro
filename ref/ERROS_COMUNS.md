@@ -100,7 +100,7 @@ html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
 ### Alinhamento de Botoes
 - Botoes usam `justify-start` conforme documentado ✅
 
-### Link INEMA.CLUB
+### Link ARCKHÉ AI
 - Presente em todas as paginas de trilha ✅
 - Cor `text-sky-400` ✅
 
@@ -137,7 +137,7 @@ Antes de criar nova pagina, verificar:
 
 1. **Navegacao**
    - [ ] Logo 📊 Dashboard Mastery presente
-   - [ ] Link INEMA.CLUB em sky-400
+   - [ ] Link ARCKHÉ AI em sky-400
    - [ ] Trilhas com nomes corretos
    - [ ] Theme toggle funcional
 
